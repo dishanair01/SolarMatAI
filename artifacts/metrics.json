@@ -1,0 +1,15 @@
+{
+    "dataset": "Matbench MP band gap",
+    "records_used": 106113,
+    "features": 84,
+    "target": "PBE band gap (eV)",
+    "baseline_mae_ev": 1.3264315081410571,
+    "mae_ev": 0.8504826689422494,
+    "rmse_ev": 1.2392070525772574,
+    "r2": 0.39844436938288597,
+    "test_fraction": 0.2,
+    "random_state": 42,
+    "model_type": "Ridge regression with log-transformed target",
+    "negative_predictions_after_clipping": 0,
+    "limitations": "Predictions are estimates from elemental composition features. They do not account fully for crystal structure or experimental conditions. The model was evaluated on a random test split."
+}
